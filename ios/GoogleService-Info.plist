@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>178375330703-m413fc08ag7o9v9gte0r3c8tiegpnbro.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.178375330703-m413fc08ag7o9v9gte0r3c8tiegpnbro</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC5PAaS5-f7IN0KK_qYo5l9AbRum5GNk_c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>178375330703</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.localizacao.firebase</string>
+	<key>PROJECT_ID</key>
+	<string>localizacao-ed7ca</string>
+	<key>STORAGE_BUCKET</key>
+	<string>localizacao-ed7ca.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:178375330703:ios:41abd9e9575a60128559fa</string>
+	<key>DATABASE_URL</key>
+	<string>https://localizacao-ed7ca.firebaseio.com</string>
+</dict>
+</plist>

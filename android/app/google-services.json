@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178375330703",
+    "firebase_url": "https://localizacao-ed7ca.firebaseio.com",
+    "project_id": "localizacao-ed7ca",
+    "storage_bucket": "localizacao-ed7ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178375330703:android:a9508a6ed8e365ad8559fa",
+        "android_client_info": {
+          "package_name": "com.localizacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178375330703-dd6o8s816bbumlqb7pf6pu42mh1hbi6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyBg9S9pL9RFPW3lkTPA-oEa-fkjAchVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178375330703-dd6o8s816bbumlqb7pf6pu42mh1hbi6r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178375330703-m413fc08ag7o9v9gte0r3c8tiegpnbro.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localizacao.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
