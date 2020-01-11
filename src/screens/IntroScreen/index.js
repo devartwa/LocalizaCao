@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, SafeAreaView, Text, ImageBackground, View} from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
-import App from '../LoginScreen';
 
 const slides = [
   {
