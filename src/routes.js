@@ -1,4 +1,8 @@
-import {createBottomTabNavigator, createAppContainer, createSwitchNavigator} from 'react-navigation';
+import {
+  createBottomTabNavigator,
+  createAppContainer,
+  createSwitchNavigator,
+} from 'react-navigation';
 import React from 'react';
 import Icon from 'react-native-vector-icons/SimpleLineIcons';
 
@@ -15,53 +19,55 @@ import FAQScreen from './screens/FAQScreen';
 import AccountScreen from './screens/AccountScreen';
 import ChangePasswordScreen from './screens/ChangePasswordScreen';
 
-const TabNavigator = createBottomTabNavigator({
-    Anúncios: {
-        screen: FeedScreen
+const TabNavigator = createBottomTabNavigator(
+  {
+    Anuncios: {
+      screen: FeedScreen,
     },
     Publicar: {
-        screen: InsertScreen
+      screen: InsertScreen,
     },
     Conta: {
-        screen: AccountScreen
+      screen: AccountScreen,
     },
-    Configurações: {
-        screen: SettingsScreen
-    }
-    }, {
+    Configuracoes: {
+      screen: SettingsScreen,
+    },
+  },
+  {
     defaultNavigationOptions: ({navigation}) => ({
-        tabBarIcon: ({tintColor}) => {
-            const {routeName} = navigation.state;
-            if (routeName === 'Anúncios') {
-                return <Icon name='list' size={22} color={tintColor}/>
-            } else if (routeName === 'Configurações'){
-                return <Icon name='settings' size={22} color={tintColor}/>
-            } else if (routeName === 'Publicar'){
-                return <Icon name='camera' size={22} color={tintColor}/>
-            } else if (routeName === 'Conta'){
-                return <Icon name='user' size={22} color={tintColor}/>  
-            }
-        },
+      tabBarIcon: ({tintColor}) => {
+        const {routeName} = navigation.state;
+        if (routeName === 'Anuncios') {
+          return <Icon name="list" size={22} color={tintColor} />;
+        } else if (routeName === 'Configuracoes') {
+          return <Icon name="settings" size={22} color={tintColor} />;
+        } else if (routeName === 'Publicar') {
+          return <Icon name="camera" size={22} color={tintColor} />;
+        } else if (routeName === 'Conta') {
+          return <Icon name="user" size={22} color={tintColor} />;
+        }
+      },
     }),
     tabBarOptions: {
-        activeTintColor: 'tomato',
-        inactiveTintColor: '#002B77',
-        activeBackgroundColor: '#FFF',
-        inactiveBackgroundColor: '#FFF'
-      },
-});
-
+      activeTintColor: 'tomato',
+      inactiveTintColor: '#002B77',
+      activeBackgroundColor: '#FFF',
+      inactiveBackgroundColor: '#FFF',
+    },
+  },
+);
 
 const AppSwitchNavigator = createSwitchNavigator({
-    IntroScreen,
-    LoginScreen,
-    TabScreen: TabNavigator,
-    RegisterScreen,
-    RecoveryScreen,
-    HelpScreen,
-    FAQScreen,
-    AccountScreen,
-    ChangePasswordScreen
-})
+  IntroScreen,
+  LoginScreen,
+  TabScreen: TabNavigator,
+  RegisterScreen,
+  RecoveryScreen,
+  HelpScreen,
+  FAQScreen,
+  AccountScreen,
+  ChangePasswordScreen,
+});
 
 export default createAppContainer(AppSwitchNavigator);
